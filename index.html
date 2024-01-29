@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+      <title>Form</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="./style.css">
+
+    </head>
+
+    <body >
+    <h1 class="h1">University of South Africa</h1><br><br>
+       
+
+            <form action="https://formspree.io/f/meqyoblz" method="POST" >
+              <fieldset>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                
+                <label for="surname">Surname</label>
+                <input type="text" id="surname" name="surname"><br><br>
+
+                <label for="gender">Gender</label>
+                <input list="browsers"><br>
+                <datalist id="browsers"><br>
+                  <option value="Female">
+                  <option value="Male">
+                </datalist><br>
+                
+                
+                <label for="date">Date of Birth</label>
+                <input type="date" id="dob" name="dob" size="80px"><br><br>
+                <label for="studen no.">Student Number</label>
+                <input type="text" id="student" name="text" size="80px">
+                <label for="course"></label><br><br>
+                <label for="Address">Physical Address</label><br>
+                <textarea name="message" rows="10" cols="30"></textarea><br><br>
+
+                Maritial Status:
+              <!-- <div class="marriage"> -->
+  		          <input type="radio" id="css" name="fav_language" value="CSS">
+  		          <label for="single">Single</label><br>
+ 		            <input type="radio" id="css" name="fav_language" value="CSS">
+  		          <label for="married">Married</label><br>
+  		          <input type="radio" id="css" name="fav_language" value="CSS">
+  		          <label for="divorced">Divorced</label><br><br>
+              <!-- </div> -->
+          
+              </fieldset>
+
+              <fieldset>
+                List of Provinces<br><br>
+                <!-- <div class="Provinces"> -->
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="zulu">Kwazulu-Natal</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="nw">North West</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="ec">Eastern Cape</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="gp">Gauteng</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="wc">Western Cape</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="nc">Northern Cape</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="fs">Free State</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="mp">Mpumalanga</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="lp">Limpopo</label><br><br>
+              <!-- </div> -->
+
+                <label for="course">List of Courses</label><br>
+                <textarea name="message" rows="10" cols="30"></textarea><br><br>
+              </fieldset>
+
+              <button>Submit</button>
+                
+            </form>
+            <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+            <script>
+              function sendEmail(){
+                Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "username",
+                Password : "password",
+                To : 'them@website.com',
+                From : "you@isp.com",
+                Subject : "This is the subject",
+                Body : "And this is the body"
+            }).then(
+              message => alert(message)
+            );
+              }
+            </script> -->
+        </body>
+    
+</html>
